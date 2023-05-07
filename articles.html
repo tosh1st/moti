@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <title>Moti Lal Sharma</title>
     <link rel="stylesheet" href="style.css">
+    <script src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#header_include").load("header_inc.html");
+      });
+    </script>
   </head>
   <body>
-    <div w3-include-html="header_inc.html"></div>
+    <div id="header_include"></div>
     <div class="main-content">
       <div w3-include-html="speech_1.html"></div>
 
